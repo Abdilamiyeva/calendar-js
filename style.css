@@ -17,15 +17,19 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #19172e;
+    /* background-color: #19172e; */
+    background-image: url(./images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 
 h1 {
     position: absolute;
     top: 30px;
-    font-size: 30px;
-    color: white;
+    font-size: 35px;
+    color: #033c07;
+   
     padding-top: 40px;
 }
 
@@ -36,13 +40,15 @@ h1 {
 
 .container {
     position: relative;
-    width: 380px;
+    width: 500px;
+    padding: 30px;
     min-height: 400px;
-    background: #252339;
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    background: #033c07;
+    box-shadow: 0 25px 45px rgba(58, 56, 56, 0.1);
     backdrop-filter: blur(25px);
     border-radius: 10px;
     display: flex;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
 }
